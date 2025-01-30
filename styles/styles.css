@@ -1,5 +1,6 @@
 main {
     max-width: 840px;
+    padding: 10px;
 }
 aside{
     width: 20rem;
@@ -50,5 +51,7 @@ nav a:hover{
     padding: 5px;
 }
 
-
+h1{
+    font-size: large;
+}
 
