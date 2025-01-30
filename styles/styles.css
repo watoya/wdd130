@@ -10,6 +10,9 @@ aside{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
+    background-color: beige;
+    color: rgb(2, 2, 76);
 }
 
 aside img{
