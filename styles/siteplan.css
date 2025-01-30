@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+
+:root {
+    --primary-color:#8871FE ;
+    --secondary-color: #53A548   ;
+    --accent1-color: #eee82c ;
+    --accent2-color: #19381f;
+
+    --heading-font: 'Open-sans', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #8871FE;
+    --secondary-color: #53A548   ;
+    --nav-link-color:  #3E28A9;
+    --nav-hover-link-color: #19381f    ;
+    --nav-hover-background-color: #eee82c; }
+
+body {
+font-family: var(--paragraph-font);
+max-width: 960px;
+padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+
+}
+ 
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rm;
+
+}
+nav a:link,nav a:visited
+{color: var(--nav-link-color);}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
