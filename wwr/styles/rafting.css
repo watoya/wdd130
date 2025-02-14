@@ -96,7 +96,7 @@ nav {
     gap: 0;
 }
 .section1 {
-display: grid;
+/*display: grid;
 grid-template-columns: 35% 30% 35%;
 grid-gap: 3rem;
 width: 100%;
@@ -108,16 +108,36 @@ justify-content: center;}
 
 .text {
 text-overflow: ellipsis;
-font-size: 16px;
+font-size: 16px;*/
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+width: 100%;
+border: black 20px;
+margin: 10px;
+padding: 5px;
+background-color: #7769f1;
+text-overflow: clip;
+}
 
-
+.section1 div{
+    width: 30%;
+    gap:2%;
+    margin-top: 0%;
+    
 }
 .h2header {
-    grid-column:2/3;
+   /* grid-column:2/3;
     grid-row:1/2;
     padding: 5%;
     background-color: #180352;
-    align-self: self-end;
+    align-self: self-end;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 0%;
     
     
 }
