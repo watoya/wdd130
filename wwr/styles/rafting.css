@@ -151,16 +151,33 @@ text-overflow: clip;
 
 }
 .section2 {
-display: grid;
-grid-template-columns: repeat(5,1fr) ;
-grid-template-rows: 1fr 1fr;
-grid-gap: 2px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 width: 100%;
 align-items: center;
 padding: 20px;
 background-color: #180352;
 margin: 5px;
 }
+
+.section2 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 90%;
+    align-items: center;
+
+}
+
+.section2 div figure img{
+    width: 100px;
+    height: 100px;
+}
+.section2 div figure figcaption{
+    color: #f5f1f7;
+}
+
 /*.section4 {
 display: flex;
 justify-content: flex-start;
@@ -366,7 +383,7 @@ label {
 .h2header img{
     width:100%;
 }
-.section2 img{ width: 200px;}
+
 footer a img{
     width: 50px;
 }
