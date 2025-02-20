@@ -52,10 +52,10 @@ content=" Watoya William">
     
     <section class="tablesection"> 
             <table class="table1">
-                <thead>
-                    
-                    <th colspan="3"> Contact us on</th>
-                
+                <thead> 
+                    <tr>  
+                    <th colspan="2"> Contact us on</th>
+                    </tr>
                 </thead>
     
                 <tbody>
@@ -92,12 +92,14 @@ content=" Watoya William">
             <div class="form_item">  <label for="email"> EMAIL</label>
                 <input type="text" id="email" name="email">
             </div>
-            <div class="form_item"> <label for="purpose" > What is the purpose of your message(choose all that apply)</label>
-             
-                <ul> <input type="radio" value="general inquiry">General Inquiry </ul>
-                <ul>    <input type="radio" value="reservation question">Reservation Question</ul>
-                <ul>    <input type="radio"  value="website suggestion">Website Suggestion</ul>
-                
+            <div class="form_item">
+                <label for="purpose">What is the purpose of your message (choose all that apply)</label>
+                <ul>
+                    <li><input type="radio" name="purpose" value="general inquiry"> General Inquiry</li>
+                    <li><input type="radio" name="purpose" value="reservation question"> Reservation Question</li>
+                    <li><input type="radio" name="purpose" value="website suggestion"> Website Suggestion</li>
+                </ul>
+            </div>   
     
             <div class="form_item" > <label for="message">MESSAGE</label>
                 <textarea id="message" name="message"></textarea>
