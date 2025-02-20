@@ -394,7 +394,9 @@ article p{
 .cta-button:hover{
     color:red;
 }
-
+.form_item ul li{
+    list-style-type: none;
+}
 
 
 
