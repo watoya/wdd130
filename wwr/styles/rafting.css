@@ -42,7 +42,7 @@ text-decoration: none;
 
 .title-box{
     position:absolute;
-    background: var(--accent2-color);
+    background: rgb(15, 15, 52);
     top: 30px;
     left: 30px;
     right: 10px;
